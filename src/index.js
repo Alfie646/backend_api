@@ -2,6 +2,7 @@ const express = require('express'); //Framework para server
 const app = express();
 
 //Settings
+const port = process.env.PORT || 3001;
 app.set('port', process.env.PORT || 3000);
 
 //Middleware
